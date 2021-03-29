@@ -23,6 +23,7 @@ class Song
   end
 
   def self.artists
-    @@new_array =
+    @@new_array = artists.uniq
+  end
 
 end
