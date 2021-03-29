@@ -19,7 +19,7 @@ class Song
   end
 
   def self.genres
-    @@new_array = genres.uniq
+    @@genres.uniq
   end
 
   def self.artists
