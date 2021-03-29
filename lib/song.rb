@@ -19,4 +19,8 @@ class Song
     @@count
   end
 
+  def self.genres
+    @@new_array = artists.uniq
+  end
+
 end
